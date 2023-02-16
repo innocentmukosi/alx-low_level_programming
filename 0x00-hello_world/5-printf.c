@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - main block
- * return: 0
- * /
+ * main - program that allows printf function
+ * return: 0 (if 0 return the code successful)
+ */
  int main(void)
  {
- puts(*\"with proper grammar, but the outcome is a piece of art,");
+ printf("\"with proper grammar, but the outcome is a piece of art,");
  return (0);
  }
