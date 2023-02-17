@@ -1,9 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * a program that print various computer compiler types
- * 
+ * main - a program that print various computer compiler types
  * Return o (success)
  */
 int main(void)
