@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - program that allows printf function
- * Return: 0 (successful)
- */
+* main - program that allows printf function
+* Return: 0 (successful)
+*/
 
 int main(void)
 {
