@@ -19,15 +19,15 @@ int main(void)
 
 		if (dig > 5)
 		{
-			printf("%d is positive 5\n", dig);
+			printf("%d and is greater than 5\n", dig);
 		}
 		else if (dig == 0)
 		{
-			printf("%d is zero 0\n", dig);
+			printf("%d and is 0\n", dig);
 		}
 		else
 		{
-			printf("%d is negetive if less than 6 and not 0\n", dig);
+			printf("%d and is less than 6 and not 0\n", dig);
 		}
 
 		return (0);
