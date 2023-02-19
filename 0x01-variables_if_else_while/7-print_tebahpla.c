@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry - point
+ * main - a program that prints the lowercase alphabet in reverse
  *
  * Retun 0 (suceess)
  */
