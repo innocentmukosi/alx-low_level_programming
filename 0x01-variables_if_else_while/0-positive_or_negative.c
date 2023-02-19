@@ -9,15 +9,26 @@
 
 int main(void)
 {
-	int n;
+	int n, dig;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-		if (n > 0)
-			printf("%d is positive\n", n);
-		else if (n == 0)
-			printf("%d is zero\n", n);
+	dig = n % 10;
+
+	print("last digit of %d is ", n);
+
+		if (dig > 5)
+		{
+			printf("%d is positive 5\n", dig);
+		}
+		else if (dig == 0)
+		{
+			printf("%d is zero 0\n", dig);
+		}
 		else
-			printf("%d is negetive\n", n);
+		{
+			printf("%d is negetive if less than 6 and not 0\n", dig);
+		}
+
 		return (0);
 }
