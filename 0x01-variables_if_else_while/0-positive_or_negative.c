@@ -21,7 +21,7 @@ int main(void)
 		{
 			printf("%d is 0\n", n);
 		}
-		while
+		while (n < 0)
 		{
 			printf("%d is negative\n", n);
 		}
