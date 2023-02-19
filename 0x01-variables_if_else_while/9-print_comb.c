@@ -2,22 +2,21 @@
 /**
  * main - Entry point
  *
- * Return 0 (success)
+ * Return: 0 (success)
  */
 
 int main(void)
 {
-int s = 0, e = 9;
+int d;
 
-while (s <= e)
+for (d = '0'; d <= '9'; d++)
 {
-putchar(s + '0');
-if (s != e)
-}
+putchar(d);
+if (d != '9')
+{
 putchar(',');
 putchar(' ');
 }
-s++;
 }
 putchar('\n');
 return (0);
