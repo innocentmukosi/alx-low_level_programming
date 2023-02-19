@@ -2,7 +2,7 @@
 /**
  * main - a program that prints the lowercase alphabet in reverse
  *
- * Retun 0 (suceess)
+ * Retun: 0 (suceess)
  */
 
 int main(void)
