@@ -7,13 +7,20 @@
 
 int main(void)
 {
-int s = 97, e = 122;
+char s = 'a';
 
-while (s <= e)
+while (c <= 'z')
 {
-if (s != 'q' && s != 'e')
-putchar(s);
-s++;
+	putchar(c);
+	c++
+}
+
+c = 'A';
+
+while (c <= 'z')
+{
+putchar(c);
+c++;
 }
 putchar('\n');
 return (0);
