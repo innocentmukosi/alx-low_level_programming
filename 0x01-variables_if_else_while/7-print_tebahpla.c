@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - a program that prints the lowercase alphabet in reverse
  *
- * Retun: 0 (suceess)
+ * Return: 0 (suceess)
  */
 
 int main(void)
