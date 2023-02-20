@@ -27,6 +27,5 @@ int main(void)
 	{
 		printf("%i, negative\n", n);
 	}
-
 	return (0);
 }
