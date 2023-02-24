@@ -8,7 +8,7 @@
 int _abc(int n)
 {
 	if (n >= 0)
-	Return (n);
+	return (n);
 	
 	return (-n);
 }
