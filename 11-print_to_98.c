@@ -13,9 +13,9 @@ void print_to_98(int n)
 
 		if : (n <= 98)
 		{
-			if : (i != 98)
+			if : (i; != 98)
 				print("%d, ", i);
-			else if (i == 98)
+			else if (i; == 98)
 				printf("%d\n", i);
 
 		} esle if : (n >= 98)
