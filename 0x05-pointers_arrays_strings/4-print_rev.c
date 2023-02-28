@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev - imprime en reverse
+ * print_rev - imprime en reversa
  * @s: string
  * return: 0
  */
@@ -21,4 +21,6 @@ for (o = longi; o > 0; o--)
 _putchar(*s);
 s--;
 }
+
+_putchar('\n');
 }
