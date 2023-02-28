@@ -5,7 +5,7 @@
  *  Return: an integer
  */
 
-int -atol(char *s)
+int _atol(char *s)
 {
 int c = 0;
 unsigned int ni = 0;
