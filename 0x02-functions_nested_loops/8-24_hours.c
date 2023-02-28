@@ -21,16 +21,15 @@ else if (i >= 10)
 _putchar((i / 10) + '0');
 _putchar((i % 10) + '0');
 }
-if (J < 10)
+if (j < 10)
 {
 _putchar(':');
 _putchar('0');
 _putchar(j + '0');
-}
+}i
 else if (j > 10)
 _putchar((j / 10) + '0');
 _putchar((j % 10) + '0');
-}
 }
 }
 }
