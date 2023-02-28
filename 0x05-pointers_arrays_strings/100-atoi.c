@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  _atol - converts a string to an integer
+ *  _atoi - converts a string to an integer
  *  @s: the pointer to convert
  *  Return: an integer
  */
