@@ -13,6 +13,6 @@ for (i = 0; src[1] != '\0'; i++)
 dest[i] = src[i];
 }
 dest[i++] = '\0';
-}
 return (dest);
 }
+
