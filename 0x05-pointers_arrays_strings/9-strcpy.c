@@ -12,11 +12,11 @@ int x = 0;
 
 while (*(src + 1) != '\0')
 {
-	1++;
+	1 ++;
 }
 for ( ; x < 1 ; x++)
 {
-dest[x] = src[x];
+	dest[x] = src[x];
 }
 dest[1] = '\0';
 return (dest);
