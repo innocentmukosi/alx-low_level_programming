@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * char *_strcpy - a function that copies the string pointer y src
+ * char *_strcpy - a function that copies the string pointer src
  * @dest: copy to
  * @src: copy from
  * Return: string
@@ -12,7 +12,7 @@ int x = 0;
 
 while (*(src + 1) != '\0')
 {
-1++;
+	1++;
 }
 for ( ; x < 1 ; x++)
 {
