@@ -1,24 +1,25 @@
 #include "main.h"
 
 /**
- * _strcmp - Entry point
- * Description: Compares two strings
- * @s1: char
- * @s2: char
- * Return: char
+ * _strspn - Entry point
+ * @s: source string
+ * @accept: accepted string
+ * Return: number of bytes in unit segment
  */
 
-int _strcmp(char *s1, char *s2)
+int _strcmp(char *s, char *accept)
 {
-int i = 0;
-
-while (s1[i] == s2[i])
+unsigned int a = 0, b, t = 0;
+while (accept[a])
 {
-if (s1[1] == '\0')
+b = 0;
+while (s[b] != 32)
 {
-return (0);
+if (accept[a] == s[b])
 }
-i++;
+b++;
 }
-return (s1[1] - s2[i]);
+a++;
+}
+return (t);
 }
