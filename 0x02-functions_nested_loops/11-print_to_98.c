@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
-* print_to_98 Prints all natural numbers from n to 98
+* print_to_98 - Entry point
+* Description - Print_to_98 Prints all natural numbers from n to 98
 * @n: the number to star printing from
-* Return: 0 (success)
+* Return: int
 */
 
 void print_to_98(int n)
