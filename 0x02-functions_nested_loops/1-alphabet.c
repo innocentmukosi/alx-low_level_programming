@@ -2,7 +2,7 @@
 
 /**
 * print_alphabet - Entry point
-* Description - In lowercase, followed by a new line
+* Description - Prints the alphabet In lowercase
 * Return: void
 */
 
@@ -15,6 +15,6 @@ while (c <= 'z')
 _putchar(c);
 c++;
 }
-_putchar('n');
+_putchar('\n');
 }
 }
