@@ -1,20 +1,42 @@
-#include <stdio.h>
-#include "main.h"
+/**
+ * _strlen_recursion - returns the length of a string.
+ * @s: string
+ * Return: the length of a string.
+ */
+int _strlen_recursion(char *s)
+{
+        if (*s == '\0')
+                return (0);
+        else
+                return (1+ _strlen_recursion(s + 1));
+}
 
 /**
- * print_diagsums - Entry point
- * @a: input
- * @size: input
- * Return: Always 0 (success)
+ * comparator - compares each character of the string.
+ * @s: string
+ * @n1: smallest iterator.
+ * @n2: biggest iterator.
+ * Return: .
  */
-void print_diagsums(int *a, int size)
+int comparator(char *s, int n1, int n2)
 {
-	int i, n, sum1 = 0, sum2 = 0;
+        if (*(s + n1) == *(s + n2))
+        {
+                if (n1 == n2 || n1 == n2 + 1)
+                        return (1);
+                return (0 + comparator(s, n1 + 1, n2 - 1));
+        }
+        return (0);
+}
 
-	for (i = 0; i <= (size * size); i = i + size + 1)
-		sum1 = sum1 + a[i];
-
-	for (n = size - 1; n <= (size * size) - size; n = n + size - 1)
-		sum2 = sum2 + a[n];
-	printf("%d, %d\n", sum1, sum2);
+/**
+ * is_palindrome - detects if a string is a palindrome.
+ * @s: string.
+ * Return: 1 if s is a palindrome, 0 if not.
+ */
+int is_palindrome(char *s)
+{
+	if (*s == '\0')
+		return (1);
+	return (comparator(s, 0, _strlen_recursion(s) - 1));
 }
